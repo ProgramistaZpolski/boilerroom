@@ -28,3 +28,17 @@ Avalible plugins:
 - script.js
 - plugins.js
 - Modernizr
+
+### Usage
+Start the code
+```sh
+node generator.js
+Settings: h for hQuery, p for pzplUI, j for JS, q for Plugins, m for Modernizr 
+```
+Then type out the arguments
+for example:
+```sh
+node generator.js
+Settings: h for hQuery, p for pzplUI, j for JS, q for Plugins, m for Modernizr hjq
+```
+Will use the script.js, plugins.js and hQuery plugins
