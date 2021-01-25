@@ -20,3 +20,10 @@ The project structure:
 	sitemap.xml - A sitemap for search engines
 	style.css - master css file
 ```
+
+Avalible plugins:
+- hQuery
+- pzplUI
+- script.js
+- plugins.js
+- Modernizr
