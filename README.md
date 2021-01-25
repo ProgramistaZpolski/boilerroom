@@ -8,7 +8,8 @@ The project structure:
 /
 	/js
 		plugins.js - Javascript Plugins
-		script.js - A file for your scripts
+		script.js - Master JS file
+		
 	.editorconfig - The config for the editor (Tabs, 4)
 	.gitattributes - GITATTRIBUTES for web projects
 	browserconfig.xml - Windows Tiles
