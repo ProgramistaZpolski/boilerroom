@@ -1885,6 +1885,19 @@ Disallow:`, function (err) {
 			console.log(`Creating file ./package.json...`);
 		};
 	});
+		
+	fs.writeFile('.hintrc', `{
+    "browserslist": [
+        "> 1%",
+        "last 2 versions"
+    ]
+}`, function (err) {
+		if (err) {
+			return console.log(err)
+		} else {
+			console.log(`Creating file ./hintrc...`);
+		};
+	});
 
 	rl.close();
 });
